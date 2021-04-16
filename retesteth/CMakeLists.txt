@@ -105,3 +105,5 @@ target_include_directories(${PROJECT_NAME} PRIVATE "../retesteth")
 if(("${CMAKE_BUILD_TYPE}" STREQUAL "Debug") OR ("${CMAKE_BUILD_TYPE}" STREQUAL "RelWithDebInfo"))
     add_definitions(-DDEBUG)
 endif()
+
+install(TARGETS ${PROJECT_NAME})
