@@ -5,7 +5,6 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/toolchain.cmake)
 project(retesteth VERSION 0.1.1)
 set(VERSION_SUFFIX "eip1559")
 
-set(Boost_USE_STATIC_LIBS ON)
 set(Boost_USE_MULTITHREADED ON)
 find_package(PkgConfig REQUIRED)
 find_package(yaml-cpp CONFIG REQUIRED libyamlcpp)
